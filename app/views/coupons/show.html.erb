@@ -1,0 +1,4 @@
+<h1>Coupon <%= @coupon.coupon_code %></h1>
+<h1>Is valid for <%=@coupon.store%></h1>
+<p><%= link_to "Edit", edit_coupon_path(@coupon)%></p>
+<p><%= link_to "Return to list", coupons_path%></p>

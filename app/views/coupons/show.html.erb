@@ -1,0 +1,8 @@
+<h1>All Coupons Show Page</h1>
+<h1>
+<%= "#{@coupons.coupon_code}: #{@coupons.store}"%>
+</h1>
+
+<div><%= link_to "Edit", edit_coupon_path(@coupons)%></div>
+<br>
+<div><%= link_to "Main Menu", coupons_path%></div>
